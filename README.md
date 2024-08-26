@@ -1,4 +1,7 @@
-# Unmonitored Juniper Temperature Data Logger
+[![Hits-of-Code](https://hitsofcode.com/github/l0mbart/juniper-temperature-environment-sensor?branch=main)](https://hitsofcode.com/github/l0mbart/juniper-temperature-environment-sensor/view?branch=main)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FL0mbart%2Fjuniper-temperature-environment-sensor&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com) 
+
+# Juniper Temperature Data Logger
 
 This is a Python script that retrieves temperature data that isn't monitored by NMS systems like Observium, Zabbix, PRTG, etc., from Juniper devices and logs it to an Excel file. The script connects to the Juniper device via SSH, parses the output to extract temperature data, and saves it to an Excel file with a timestamp every 15 minutes.
 
