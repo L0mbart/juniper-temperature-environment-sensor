@@ -40,14 +40,15 @@ The script will connect to the Juniper device, retrieve temperature data, and sa
 
 ## File Structure
 juniper_chassis_env.py - The main script that handles data retrieval and logging.
+juniper_graph_env.py - For visualization the data
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
-paramiko for SSH communication
-pandas for managing data and writing to Excel files
-openpyxl for writing to Excel files
-crontab - Contains the configuration for running the script at regular intervals.
+- `paramiko for SSH communication
+- `pandas for managing data and writing to Excel files
+- `openpyxl for writing to Excel files
+- `crontab - Contains the configuration for running the script at regular intervals.
 
 iseng2.id
