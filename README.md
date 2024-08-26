@@ -39,8 +39,8 @@ python juniper_chassis_env.py
 The script will connect to the Juniper device, retrieve temperature data, and save it to an Excel file in the myproject directory. The file will be named in the format YYYY-MM-DD_juniper_chassis_env.xlsx, where YYYY-MM-DD is the current date.
 
 ## File Structure
-- juniper_chassis_env.py - The main script that handles data retrieval and logging.
-- juniper_graph_env.py - For visualization the data
+- `juniper_chassis_env.py` - The main script that handles data retrieval and logging.
+- `juniper_graph_env.py` - For visualization the data
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
