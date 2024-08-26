@@ -3,7 +3,7 @@
 
 # Juniper Temperature Data Logger
 
-This is a Python script that retrieves temperature data that isn't monitored by NMS systems like Observium, Zabbix, PRTG, etc., from Juniper devices and logs it to an Excel file. The script connects to the Juniper device via SSH, parses the output to extract temperature data, and saves it to an Excel file with a timestamp every 15 minutes.
+This is a Python script that retrieves temperature data that isn't monitored by NMS systems like Observium, Zabbix, PRTG, etc., from Juniper devices and logs it to an Excel file. The script connects to the Juniper device via SSH, parses the output to extract temperature data, and saves it to an Excel file with a timestamp every 5 minutes.
 
 ## Requirements
 
