@@ -52,3 +52,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - crontab - Contains the configuration for running the script at regular intervals.
 
 iseng2.id
+buymeacoffee.com/l0mbart
